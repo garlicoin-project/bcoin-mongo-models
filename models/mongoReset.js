@@ -9,7 +9,7 @@ const Undo = require('./undo');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/bcoin');
+mongoose.connect('mongodb://localhost/gcoin');
 
 async function reset() {
   await Address.remove({});
